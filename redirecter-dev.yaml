@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: redirecter
+  datasource:
+    url: jdbc:postgresql://localhost:5432/urlshortener
+    driverClassName: org.postgresql.Driver
+    username: root
+    password: password
+  jpa:
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+logging.level:
+  com.rgoto.shortener: debug
