@@ -1,6 +1,6 @@
 spring:
   application:
-    name: redirecter
+    name: redirecter-dev
   datasource:
     url: jdbc:postgresql://localhost:5432/urlshortener
     driverClassName: org.postgresql.Driver
